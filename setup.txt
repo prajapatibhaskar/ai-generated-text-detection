@@ -1,0 +1,9 @@
+NextJS setup:
+cd client
+npm install
+
+Flask setup:
+cd server
+python -m venv venv
+pip install flask Flask-Cors tensorflow scikit-learn
+python app.py
